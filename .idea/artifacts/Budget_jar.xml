@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Budget:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Budget_jar</output-path>
+    <root id="archive" name="Budget.jar">
+      <element id="module-output" name="Budget" />
+    </root>
+  </artifact>
+</component>
