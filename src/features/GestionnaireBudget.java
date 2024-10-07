@@ -38,6 +38,11 @@ public class GestionnaireBudget {
         GestionnaireBudget gestionnaireBudget = new GestionnaireBudget();
         Scanner scanner = new Scanner(System.in);
 
+        // Ajout des dépenses de test
+        gestionnaireBudget.ajouterDepense("Courses", 50.0, "2024-10-01");
+        gestionnaireBudget.ajouterDepense("Transport", 15.0, "2024-10-02");
+        gestionnaireBudget.afficherResume();
+
         while (true) {
             System.out.println("Choisissez une option : 1. Ajouter une dépense  2. Afficher le résumé  3. Quitter");
             int choix = scanner.nextInt();
